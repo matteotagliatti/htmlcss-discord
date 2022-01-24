@@ -56,11 +56,6 @@ footer {
   background-color: #23272a;
 }
 
-footer img {
-  width: 20px;
-  margin-right: 0.2rem;
-}
-
 footer nav {
   display: inline-block;
   vertical-align: top;
@@ -132,6 +127,10 @@ button {
   float: right;
 }
 
+.mb1 {
+  margin-bottom: 1rem;
+}
+
 .mb2 {
   margin-bottom: 2rem;
 }
@@ -190,6 +189,26 @@ button {
 
 .inner-footer-small {
   width: 30%;
+}
+
+.footer-border-bottom {
+  border-bottom: 1px solid grey;
+  padding-bottom: 2rem;
+}
+
+.ita-flag {
+  width: 20px;
+  margin-right: 0.2rem;
+}
+
+.arrow-down::after {
+  content: "˅";
+  margin-left: 0.3rem;
+}
+
+.social a {
+  color: white;
+  margin-right: 0.8rem;
 }
 
 /* ID */
