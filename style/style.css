@@ -101,16 +101,16 @@ section img {
   margin-bottom: 2rem;
 }
 
-.mb8 {
-  margin-bottom: 8rem;
-}
-
 .mr-5 {
   margin-right: 0.5rem;
 }
 
 .mr1-5 {
   margin-right: 1.5rem;
+}
+
+.p8 {
+  padding: 8rem 0;
 }
 
 .btn-black {
@@ -129,6 +129,10 @@ section img {
 
 .inner-section-small {
   width: 37%;
+}
+
+.bg-grey {
+  background-color: #f6f6f6;
 }
 
 /* ID */
