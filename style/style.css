@@ -48,7 +48,6 @@ header {
   position: relative;
   background-image: url("../img/jumbo.png");
   background-size: cover;
-  color: white;
   padding: 1.3rem 0;
 }
 
@@ -63,7 +62,6 @@ main section img {
 }
 
 footer {
-  color: white;
   background-color: #23272a;
 }
 
@@ -141,12 +139,10 @@ button {
 }
 
 .btn-black {
-  color: white;
   background-color: #23272a;
 }
 
 .btn-lavander {
-  color: white;
   background-color: #8ea1e1;
   box-shadow: none;
 }
@@ -168,6 +164,10 @@ button {
   background-color: #f6f6f6;
 }
 
+.text-white {
+  color: white;
+}
+
 .text-center {
   text-align: center;
 }
@@ -187,11 +187,6 @@ button {
 .footer-border-bottom {
   border-bottom: 1px solid grey;
   padding-bottom: 2rem;
-}
-
-.ita-flag {
-  width: 20px;
-  margin-right: 0.2rem;
 }
 
 .arrow-down::after {
@@ -217,4 +212,9 @@ button {
   transform: translate(-50%, -50%);
   width: 90%;
   max-width: 600px;
+}
+
+#ita-flag {
+  width: 20px;
+  margin-right: 0.2rem;
 }
