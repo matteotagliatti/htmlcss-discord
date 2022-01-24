@@ -79,7 +79,7 @@ footer nav ul li {
   margin-bottom: 1rem;
 }
 
-footer nav ul li:nth-child(1),
+footer nav ul li a.lavander,
 footer h3 {
   font-weight: bold;
   color: #8ea1e1;
