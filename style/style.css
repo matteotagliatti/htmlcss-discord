@@ -51,6 +51,34 @@ header ul li {
   padding-top: 0.5rem;
 }
 
+footer {
+  color: white;
+  background-color: #23272a;
+}
+
+footer img {
+  width: 20px;
+  margin-right: 0.2rem;
+}
+
+footer nav {
+  display: inline-block;
+  vertical-align: top;
+}
+
+footer nav ul li {
+  margin-bottom: 1rem;
+}
+
+footer nav ul li:nth-child(1) {
+  font-weight: bold;
+  color: #8ea1e1;
+}
+
+footer h3 {
+  color: #8ea1e1;
+}
+
 button {
   display: inline-block;
   background-color: white;
@@ -150,6 +178,18 @@ button {
 
 .text-center {
   text-align: center;
+}
+
+.inner-footer-big {
+  width: 70%;
+}
+
+.inner-footer-big .w25 {
+  width: 24%;
+}
+
+.inner-footer-small {
+  width: 30%;
 }
 
 /* ID */
