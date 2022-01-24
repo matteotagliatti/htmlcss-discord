@@ -11,15 +11,21 @@
 body {
   font-family: "Whitney", sans-serif;
   min-width: 850px;
+  color: #23272a;
 }
 
-h1 {
+h1,
+h2 {
   font-size: 3rem;
   margin-bottom: 2rem;
 }
 
 p {
   line-height: 1.5;
+}
+
+li {
+  list-style-type: none;
 }
 
 header {
@@ -38,10 +44,6 @@ header ul li {
   padding-top: 0.5rem;
 }
 
-li {
-  list-style-type: none;
-}
-
 button {
   display: inline-block;
   background-color: white;
@@ -53,10 +55,14 @@ button {
   box-shadow: 1px 1px 5px #23272a;
 }
 
+section img {
+  width: 100%;
+}
+
 /* Classes */
 
 .container {
-  width: 60%;
+  width: 70%;
   max-width: 1000px;
   min-width: 800px;
   margin: 0 auto;
@@ -95,6 +101,10 @@ button {
   margin-bottom: 2rem;
 }
 
+.mb8 {
+  margin-bottom: 8rem;
+}
+
 .mr-5 {
   margin-right: 0.5rem;
 }
@@ -111,6 +121,14 @@ button {
 .btn-big {
   padding: 0.9rem 1.2rem;
   font-size: 0.9rem;
+}
+
+.inner-section-big {
+  width: 60%;
+}
+
+.inner-section-small {
+  width: 37%;
 }
 
 /* ID */
