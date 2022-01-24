@@ -43,6 +43,11 @@ i {
   margin-right: 0.5rem;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
 header {
   height: 650px;
   position: relative;
